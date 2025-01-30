@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- daisyui tailwind cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'primary-color': '#FFDC26',
+              }
+            }
+          }
+        }
+      </script>
+
+
+    <style>
+        .font-adlam {
+         font-family: "ADLaM Display", serif;
+        }   
+    </style>
+    
+</head>
+<body class="font-adlam">
+    <!-- header section -->
+    <header class="container mx-auto flex justify-around items-center">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a>Find a pet</a></li>
+                  <li><a>Breeds</a></li>                  
+                  <li><a>Contact</a></li>
+                </ul>
+                
+              </div>
+              <img class="hidden lg:block" src="./c1-assets/logo-header.png" alt="">
+              <p class="hidden lg:block text-2xl">Browse<span class="text-primary-color">4</span>Pets</p>
+            </div>
+
+
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Find a pet</a></li>
+                <li><a>Breeds</a></li>                  
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+           
+            <div class="navbar-end hidden lg:flex">
+                <i class="fa-solid fa-bell mr-4"></i>
+                <i class="fa-solid fa-magnifying-glass mr-4"></i>
+                <a class="btn mr-2">Login</a>
+                <a class="btn">Register</a>
+            </div>
+            </div>
+          </div>
+          <img class="sm:block lg:hidden" src="./c1-assets/logo-header.png" alt="">
+
+
+    </header>
+
+    <!-- main section -->
+
+    <main>
+
+    </main>
+
+    <!-- footer section -->
+
+    <footer>
+
+    </footer>
+
+    <script src="https://kit.fontawesome.com/d317f9a917.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>
